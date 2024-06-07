@@ -13,9 +13,7 @@ public class TestBase {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://www.saucedemo.com";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = true;
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
         //отключение предупреждения об утечке паролей
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("credentials_enable_service", false);
