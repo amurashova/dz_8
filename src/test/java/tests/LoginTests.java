@@ -40,7 +40,5 @@ public class LoginTests extends TestBase {
         $("#inventory_container").$(withText(cardText)).click();
         $(".inventory_details_name").shouldHave(text(cardText));
 
-
-
     }
 }
